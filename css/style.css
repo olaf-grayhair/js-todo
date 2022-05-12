@@ -1,0 +1,80 @@
+
+*{
+
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(91, 91, 236);
+}
+.wrap{
+    border: 1px solid white;
+    width: 440px;
+    padding: 20px;
+    background-color: darkgreen;
+}
+.form{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttons{
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+}
+input{
+    padding: 10px;
+    border: 1px solid white;
+    background-color: black;
+}
+.btn{
+    padding: 10px;
+    border: 1px solid wheat;
+    background-color: black;
+}
+.delete{
+    padding: 5px;
+    background-color: blue;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: none;
+}
+.del_active{
+    display: block;
+}
+
+.item{
+    padding: 10px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black ;
+}
+.active{
+    background-color: red;
+}
+.item_active{
+    background-color: brown;
+    padding: 10px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    width: 70%;
+    word-break: break-all;
+}
+.cansel{
+    cursor: alias;
+}
